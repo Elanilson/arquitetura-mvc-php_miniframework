@@ -1,0 +1,14 @@
+<h1>SobreNos</h1>
+<hr>
+<?php
+/*
+foreach ($this->view->dados as $indice => $valor){
+	echo $valor."<br>";
+
+}*/
+foreach ($this->view->dados as $indice => $info){
+	echo ( $info['titulo'].'-'.$info['descricao']);
+	echo "<br>";
+
+}
+?>
